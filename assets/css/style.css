@@ -1,0 +1,25 @@
+body, html {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+.content {
+    text-align: center;
+}
+.twitter-link {
+    text-decoration: none;
+    border-bottom: 2px solid #1DA1F2;
+    transition: border-bottom 0.2s ease;
+}
+.twitter-link:hover {
+    border-bottom: 2px solid #fff;
+}
